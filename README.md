@@ -42,7 +42,8 @@ Otra de las dificultades que tuve fue el hecho de describir el proceso mientras 
 ---
 
 ## RESULTADO
-<img width="1000" height="1000" alt="descarga (3)" src="https://github.com/user-attachments/assets/2fa77463-b118-4afa-828d-74b8b36afdd3" />
+<img width="1000" height="1000" alt="descarga (4)" src="https://github.com/user-attachments/assets/c5f31c20-9c9f-4b79-86dc-0e3cbc936447" />
+
 
 
 
@@ -52,10 +53,9 @@ Otra de las dificultades que tuve fue el hecho de describir el proceso mientras 
 ## CÓDIGO 
 
 
-function setup() {
+unction setup() {
   createCanvas(500, 500); // canvas base, se asigna un canvas de 500 x 500 px
   angleMode(DEGREES); // modo de angulo
- 
 }
 
 function draw() {
@@ -76,6 +76,8 @@ function draw() {
 
   line(0, 72, 220, 72); // lineas superiores izquierda, se asigna primera linea horizontal
   line(0, 140, 220, 140); // lineas superiores izquierda, se asigna segunda linea horizontal
+  line(0, 72, 220, 250); // lineas superiores izquierda, se asigna primera linea horizontal
+  line(500, 34, 220, 250); // lineas superiores izquierda, se asigna primera linea horizontal
 
   line(280, 34, 500, 34); // lineas superiores derecha, se asigna primera linea horizontal
   line(280, 102, 500, 102); // lineas superiores derecha, se asigna segunda linea horizontal
@@ -92,9 +94,9 @@ function draw() {
   ellipse(110, 107, 22, 22); // ojo izquierdo, se asignan coordenadas y tamaño de la pupila
 
   stroke(250, 0, 0); // ojo derecho, se asigna color rojo al trazo
-  line(385, 40, 385, 50); // ojo derecho, se asigna barra vertical central sobre el ojo
-  line(405, 40, 405, 50); // ojo derecho, se asigna barra vertical derecha sobre el ojo
-  line(365, 40, 365, 50); // ojo derecho, se asigna barra vertical izquierda sobre el ojo
+  line(384, 42, 384, 52); // ojo derecho, se asigna barra vertical central sobre el ojo
+  line(404, 42, 404, 52); // ojo derecho, se asigna barra vertical derecha sobre el ojo
+  line(364, 42, 364, 52); // ojo derecho, se asigna barra vertical izquierda sobre el ojo
   stroke(0, 0, 0); // ojo derecho, se reasigna trazo negro
   fill(250); // ojo derecho, se asigna relleno blanco
   ellipse(383, 68, 78, 38); // ojo derecho, se asignan coordenadas y tamaño de la elipse exterior
@@ -127,13 +129,26 @@ function draw() {
 
   noStroke(); // semicirculos inferiores, se asigna sin trazo
   fill(0, 0, 0); // semicirculos inferiores, se asigna relleno negro
-  arc(125, 250, 125, 125, 0, 180); // semicirculo inferior izquierdo, se asignan coordenadas, tamaño y angulo 
+  arc(125, 250, 125, 125, 0, 180); // semicirculo inferior izquierdo, se asignan coordenadas, tamaño y angulo
   arc(375, 250, 125, 125, 0, 180); // semicirculo inferior derecho, se asignan coordenadas, tamaño y angulo
   stroke(0); // se define el contorno en negro
   strokeWeight(2); // se asigna un grosor de 2 pixeles al contorno
-  strokeCap(SQUARE); // se define que los extremos de las lineas sean rectos 
-  fill(250, 0, 0); // se asigna un relleno rojo 
+  strokeCap(SQUARE); // se define que los extremos de las lineas sean rectos
+  fill(250, 0, 0); // se asigna un relleno rojo
   arc(250, 250, 125, 125, 0, 180); // se dibuja un semicirculo centrado
+
+  stroke(250); // circulo y puntos mas abajo, se reasigna trazo negro
+  strokeWeight(6); // circulo y puntos mas abajo, se asigna grosor de punto en 10
+  point(250, 200); // se asigna punto
+  point(250, 180); // se asigna punto
+  point(250, 160); // se asigna punto
+  point(250, 140); // se asigna punto
+  point(250, 120); // se asigna punto
+  point(250, 100); // se asigna punto
+  point(250, 80); // se asigna punto
+  point(250, 60); // se asigna punto
+  point(250, 40); // se asigna punto
+  point(250, 20); // se asigna punto
 
   stroke(0); // circulo y puntos mas abajo, se reasigna trazo negro
   strokeWeight(6); // circulo y puntos mas abajo, se asigna grosor de punto en 10
@@ -152,6 +167,7 @@ function draw() {
   rect(368, 345, 95, 45); // bloque derecho, se asignan coordenadas y tamaño del rectangulo
   fill(0); // bloque derecho, se asigna relleno negro
   square(388, 390, 55); // bloque derecho, se asignan coordenadas y tamaño del cuadrado
+  ellipse(414, 370, 45, 45); // circulo y puntos mas abajo, se asignan coordenadas y tamaño del circulo central
 }
 
 
@@ -167,7 +183,10 @@ LINKS :[P5.JS](https://editor.p5js.org/marianne88/sketches/I1pgzBkM-)
 
 ## DIBUJO
 
-IMÁGEN: ![IMG_20260409_203858](https://github.com/user-attachments/assets/71f9ffe4-6cb2-4853-a557-6feaf0249e13)
+IMÁGEN: ![IMG_20260409_232243](https://github.com/user-attachments/assets/38adbf5f-6dad-45b6-a520-4c722af09144)
+
+
+
 
 ---
 
