@@ -160,7 +160,7 @@ function draw() {
 
 ## LINK
 
-LINKS :[Github](https://editor.p5js.org/marianne88/sketches/I1pgzBkM-)
+LINKS :[P5.JS](https://editor.p5js.org/marianne88/sketches/I1pgzBkM-)
 
 
 ---
