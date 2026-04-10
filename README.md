@@ -42,7 +42,8 @@ Otra de las dificultades que tuve fue el hecho de describir el proceso mientras 
 ---
 
 ## RESULTADO
-<img width="1000" height="1000" alt="descarga (4)" src="https://github.com/user-attachments/assets/c5f31c20-9c9f-4b79-86dc-0e3cbc936447" />
+<img width="1000" height="1000" alt="descarga (5)" src="https://github.com/user-attachments/assets/b916c0d4-0385-4bf0-b66a-e95ca81a5471" />
+
 
 
 
