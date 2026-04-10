@@ -2,49 +2,42 @@
 
 ## PROCESO DE RÉPLICA  
 
-Primero definí **líneas guía** (que posteriormente borré) para poder ubicar correctamente las figuras dentro del canvas. Dibujé una línea horizontal y una vertical central, y a partir de eso fui agregando otras referencias. Esto me fue de gran ayuda, ya que una de las principales dificultades era poder ubicar mentalmente los objetos en el espacio. Estas líneas me ayudaron a **ordenar la composición** y tener mayor control sobre las posiciones.  
+Primero definí líneas guía (que posteriormente borré) para poder ubicar correctamente las figuras dentro del canvas. Dibujé una línea horizontal y una vertical central, y a partir de eso fui agregando otras referencias. Esto me ayudo, para poder ubicar los objetos más rapido y más fácil.
 
 ---  
 
-Luego pasé a trabajar los **semicírculos**, que fue una de las partes que más me complicó. Al principio no lograba que se formaran correctamente, ya que no podía obtener semicírculos perfectos. Tuve que entender mejor el uso de los ángulos y ajustar los valores hasta lograr un resultado correcto.  
+Luego pasé a trabajar los semicírculos, que fue una de las partes que más me complicó. Al principio no lograba que se formaran correctamente, ya que no podía obtener semicírculos perfectos. Tuve que entender mejor el uso de los ángulos y ajustar los valores hasta lograr un resultado correcto.  
 
 - Una vez que logré uno en la parte superior, pude replicar los demás de forma horizontal.  
-- Lo mismo ocurrió con los dos semicírculos de abajo: una vez entendido el uso de los ángulos, solo fue necesario modificar las coordenadas de **X**.  
+- Lo mismo ocurrió con los dos semicírculos de abajo: una vez entendido el uso de los ángulos, solo fue necesario modificar las coordenadas de X.  
 
 ---  
 
-Después trabajé el **rectángulo vertical superior**. Al ser un elemento centrado, fue relativamente simple. Sin embargo, apareció otra dificultad importante: el **orden del código**. Tuve que aprender a organizar las figuras según su jerarquía visual, entendiendo qué elementos debían ir encima y cuáles debajo.  
+Después trabajé el rectángulo vertical superior. Al ser un elemento centrado, fue simple de ubicar. 
+Otra de las dificultades fue el orden del código. Para ubicar q figuras tenían que ir encima y cuáles debajo, por lo que  tuve que empezar a ser más ordenada.  
 
 ---  
 
-Luego desarrollé toda la **parte superior izquierda**, incluyendo la elipse del "ojo", las tres líneas verticales y las dos líneas horizontales. Esta parte fue más sencilla, ya que al tener el centro definido, las proporciones se resolvieron de manera más intuitiva.  
+Luego desarrollé toda la parte superior izquierda, incluyendo la elipse del "ojo", las tres líneas verticales y las dos líneas horizontales. Esta parte fue más sencilla, ya que al tener el centro definido, las proporciones se resolvieron de manera más facil.  
 
-Sin embargo, la **elipse** me costó, ya que no lograba que tuviera la forma exacta: muchas veces me quedaba muy circular o demasiado aplanada, así que tuve que ir probando con varios parámetros hasta llegar al definitivo.  
-
-A partir de esto, la parte derecha se construyó más fácil, reutilizando código y ajustando principalmente el eje **X** y las alturas.  
+La elipse me costó un poco, ya que no lograba que tuviera la forma exacta (muchas veces me quedaba muy circular o demasiado aplanada) así que tuve que ir probando con varios parámetros hasta llegar al definitivo.  
 
 ---  
 
-El **triángulo** fue otro punto importante. En clases me había costado construirlo, pero en este ejercicio logré hacerlo definiendo primero la punta y luego los dos puntos de la base. Esto me permitió tener un mayor control sobre su forma y ubicación dentro de la composición.  
+Después hice el triangulo. En clases me había costado construirlo, pero definiendo la punta fue más facil lograr la figura y su ubicación.
 
 ---  
 
-Posteriormente agregué los **rectángulos verticales rojos**, los puntos y el círculo central. Finalmente, construí los bloques inferiores azules a ambos lados.  
+Posteriormente agregué los rectángulos verticales rojos, los puntos y el círculo central. Finalmente, construí los bloques inferiores azules a ambos lados. 
 
-Esta última parte también fue bastante **simétrica**, lo que facilitó el proceso al poder copiar estructuras y modificar principalmente el eje **X**.  
 
 ---  
 
-Una de las principales dificultades durante todo el proceso fue el manejo de los **stroke** y los colores. Muchas veces, al cambiar el trazo o el color para una figura específica, estos cambios afectaban a todas las figuras siguientes.  
-
-Esto me obligó a ser más ordenada en el código, reasignando constantemente los parámetros como:  
-
-- `stroke()`  
-- `fill()`  
-- `strokeWeight()` 
+Una de las principales dificultades que tuve durante el proceso fue el manejo de los stroke y los colores. Pero solo porque si cambiaba alguno de estos parametros se cambiaba todo para abajo por lo que tuve que empezar a ser más ordenada con el código.
+ 
 
 ---
-Otra de las dificultades que tuve fue el hecho de describir el proceso mientras avanzaba. Muchas veces iba trabajando directamente en el código y se me olvidaba ir registrando lo que estaba haciendo, lo que después hacía más difícil reconstruir los pasos. Sin embargo, una vez que me empecé a acostumbrar, comencé a usar un mismo formato para todas las descripciones, lo que facilitó mucho el proceso, ya que podía copiar y pegar la estructura y solo modificar lo que cambiaba en cada parte.  
+Otra de las dificultades que tuve fue el hecho de describir el proceso mientras avanzaba. Muchas veces iba trabajando directamente en el código y se me olvidaba ir registrando lo que estaba haciendo, y después se me olvidaba lo que hacía. Sin embargo, una vez que me empecé a acostumbrar, comencé a usar un mismo formato para todas las descripciones, lo que facilitó mucho el proceso, ya que podía copiar y pegar la estructura y solo modificar lo que cambiaba en cada parte.  
 
 ---
 
